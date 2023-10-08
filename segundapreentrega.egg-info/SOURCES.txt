@@ -1,0 +1,11 @@
+setup.py
+segunda_preentrega_Moyano/__init__.py
+segunda_preentrega_Moyano/main.py
+segunda_preentrega_Moyano/primera_preentrega/__init__.py
+segunda_preentrega_Moyano/primera_preentrega/primer_entrega.py
+segunda_preentrega_Moyano/segunda_preentrega/__init__.py
+segunda_preentrega_Moyano/segunda_preentrega/clientes.py
+segundapreentrega.egg-info/PKG-INFO
+segundapreentrega.egg-info/SOURCES.txt
+segundapreentrega.egg-info/dependency_links.txt
+segundapreentrega.egg-info/top_level.txt

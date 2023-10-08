@@ -38,7 +38,15 @@ def open_db():
     if os.path.exists("midb.json"):
         with open("midb.json", "r") as archivo:
             users.update(json.load(archivo))
-        
+
+
+def read_db():
+    if os.path.exists("midb.json"):
+        with open("midb.json", "r") as archivo:
+            db = json.load(archivo)
+            for user in db.keys():
+                print(f'Los usuarios registrados en la base de datos son: {user}')
+            
 open_db()
         
 while True:
@@ -60,3 +68,5 @@ while True:
         break
     else:
         print('Por favor, elija una opcion válida')
+        
+read_db()
